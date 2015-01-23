@@ -36,7 +36,7 @@ The `CodeBook.md` explains the flow more in detail.
 
 3. source the script in R studio
 
-4. run the script run()
+4. execute function run()
 
 5. wait... on my PC it takes 7 minutes
 
