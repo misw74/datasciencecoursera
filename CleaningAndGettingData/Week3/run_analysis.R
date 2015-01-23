@@ -1,5 +1,6 @@
 library(reshape2)
 
+
 #
 # loadOneFile - loads one single data file
 # it combines it with labels, features, and activities

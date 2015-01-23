@@ -2,6 +2,7 @@
 
 This document describes the code inside `run_analysis.R`.
 
+
 ## functions
 
 run analysis consists of 4 functions
