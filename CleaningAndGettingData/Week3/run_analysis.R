@@ -137,7 +137,7 @@ run <- function( aDir = "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset", 
   myRetVal <- calcResult(myCombinedDF)
   
   print( sprintf("%s saving results", Sys.time()) )
-  write.table( myRetVal, file=destfile )
+  write.table( myRetVal, file=destfile, row.name=F  )
   
   myRetVal
 }
