@@ -30,9 +30,14 @@ The `CodeBook.md` explains the flow more in detail.
 
 ## Run from command line
 
-1. Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 2. unzip it in the working directory
+1. Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+2. unzip it in the working directory
+
 3. source the script in R studio
+
 4. run the script run()
+
 5. wait... on my PC it takes 7 minutes
 
 the final dataset is to be found in the working directory. By default the result is saved as result.csv  
