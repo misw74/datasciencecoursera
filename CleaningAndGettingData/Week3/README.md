@@ -13,6 +13,7 @@ Functions:
 run:
   * loads data (expects by default unzipped data in de working directory)
   * returns dataframe combining test and train data, with average mean and std measurments per subject per activity
+    and saves it in txt file
 
 loadData:
   * takes a directory where the data is ( by default UCI HAR Dataset/UCI HAR Dataset in working dir)
@@ -40,5 +41,5 @@ The `CodeBook.md` explains the flow more in detail.
 
 5. wait... on my PC it takes 7 minutes
 
-the final dataset is to be found in the working directory. By default the result is saved as result.csv  
+the final dataset is to be found in the working directory. By default the result is saved as result.txt  
 	   
