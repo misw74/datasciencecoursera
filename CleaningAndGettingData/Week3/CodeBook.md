@@ -39,3 +39,4 @@ NOTE 2: the script writes the result to the file (by default result.txt). If the
 8. melts the data.frame so the subject and activity can be used as a key
 9. calculates averages of all the variables in the melted data.frame and set it to the result data.frame
 10. writes the result data.frame to txt file and returns it
+

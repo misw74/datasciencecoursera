@@ -123,10 +123,10 @@ calcResult <- function( aDF ) {
   myRetVal <- dcast( subject + activity ~ variable, data = myPerSubjectPerActivityDF, fun = mean )    
 }
 
-run <- function( aDir = "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset", destcsv = "result.txt") {  
-  if( file.exists(destcsv) )
+run <- function( aDir = "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset", destfile = "result.txt") {  
+  if( file.exists(destfile) )
   {
-    stop( sprintf( "%s already exists, provide other destination", destcsv ) )
+    stop( sprintf( "%s already exists, provide other destination", destfile ) )
   }
   
   print( sprintf("%s import started", Sys.time()) )
@@ -136,7 +136,7 @@ run <- function( aDir = "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset", 
   myRetVal <- calcResult(myCombinedDF)
   
   print( sprintf("%s saving results", Sys.time()) )
-  write.table( myRetVal, file=destcsv )
+  write.table( myRetVal, file=destfile )
   
   myRetVal
 }

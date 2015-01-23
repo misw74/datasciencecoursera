@@ -42,4 +42,3 @@ The `CodeBook.md` explains the flow more in detail.
 5. wait... on my PC it takes 7 minutes
 
 the final dataset is to be found in the working directory. By default the result is saved as result.txt  
-	   
